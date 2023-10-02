@@ -1,2 +1,3 @@
 # Advanced_BIM
-Script for assignment
+Script for assignments
+Read me carefuly
