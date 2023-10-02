@@ -1,5 +1,5 @@
 # Assingment 2 - Group 5
-
+We have chosen to work with the distribution of daylight in different spaces, and how window properties affect it. 
 ## Describe the use case you have chosen. 
 
 ## Who is the use case for? 
