@@ -17,3 +17,7 @@ This use case can be used by engineers or companies interested in daylight analy
 ## What is the input data for your use case? 
 
 ## What other use cases are waiting for your use case to complete? 
+
+
+# BPMN
+<img src="./Images/diagram_full_version.svg">
