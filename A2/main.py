@@ -1,11 +1,25 @@
-# import IfcOpenShell
+# import
+from pathlib import Path
 import ifcopenshell
 
-# open model
-model = ifcopenshell.open('models\ARK_new.ifc')
+modelname = "ARK_new"
+
+try:
+    dir_path = Path(__file__).parent
+    model_url = Path.joinpath(dir_path, 'model', modelname).with_suffix('.ifc')
+    model = ifcopenshell.open(model_url)
+except OSError:
+    try:
+        import bpy
+        model_url = Path.joinpath(Path(bpy.context.space_data.text.filepath).parent, 'model', modelname).with_suffix('.ifc')
+        model = ifcopenshell.open(model_url)
+    except OSError:
+        print(f"ERROR: please check your model folder : {model_url} does not exist")
+
+
+# Print project name
 project = (model.by_type('IfcProject'))
 print(f'The loaded project is: {project[0].LongName}')
-
 
 #----------------- WINDOWS ---------------------
 
@@ -103,5 +117,4 @@ for i in range(len(SpaceID)):
         print(f"Space with ID '{space}' has a W2F ratio < 10%, and needs to be changed.")
     else:
         print(f"Space with ID '{space}' has a W2F ratio >/= 10%")
-
 
