@@ -19,7 +19,7 @@ At last the floor area of the spaces were found within the `IfcQuantityArea` via
 
 #### Disciplinary analysis
 *What disciplinary analysis does it require?*
-This use case only requires the disciplinary analysis of calculating window areas (A = h*w) and the W2F ratios (W2F = A ~wind~ / A ~floor~ ).
+This use case only requires the disciplinary analysis of calculating window areas (A = h*w) and the W2F ratios (W2F = A<sub>wind</sub> / A<sub>floor</sub> ).
 #### Relevant Building Elements
 *What building elements are you interested in?*
 For this use case the relevant building elements (objects) are the spaces and their windows. 
