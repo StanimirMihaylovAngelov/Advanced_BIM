@@ -20,4 +20,4 @@ Window area; Window placement; Window geometry; Space geometry
 
 
 # BPMN
-<img src="./Images/diagram_full_version.svg">
+<img src="./images/diagram_full_version.svg">
