@@ -36,4 +36,4 @@ This use case is not a necessary step in the whole daylight analysis process, ho
 
 
 # BPMN
-<img src="./Images/diagram_full_version.svg">
+<img src="./images/diagram_full_version.svg">
