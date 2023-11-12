@@ -24,7 +24,9 @@ Figure 1: BIM Overview Map
 When looking at the BIM overview map, the process can be described as follows. This use case starts with receiving and opening an IFC-model of the architectural BIM model. The presence of properties relevant to the daylight analysis in the IFC-model is then checked. These properties are listed in the section "BIM information exchange". If some of these properties are missing the developed script along with other future scripts should add standard values, so that it would be possible to conduct a daylight analysis with this IFC-model. When the standard values are assigned, the new IFC-model is exported. The new IFC-model is then used in combination with external data like solar-, weather- and location data to create a daylight model of the building or the zone of interest. Next the daylight analysis is performed, and the results are then evaluated. If the result does not comply with the requirements, the properties of the building elements require adjustment and optimisation, and then the daylight analysis is run again. When all requirements are met, the model and the results are exported.
 
 <img src="./images/BPMN_2.svg">
- _Figure 2: Detailed BIM Use Process Map_
+ Figure 2: Detailed BIM Use Process Map
+ <br />
+ <br />
 
 The Detailed BIM Use Process Map shows the process regarding the developed script **Main.py**. This use case starts with receiving and opening an IFC-model of the architectural BIM model. The presence of surface reflectance of the building elements in the IFC-model is checked. If some of these surface reflectances are missing, the developed script **Main.py** will assign standard values from the Danish Standard DS/ISO 17037 as a new IfcCustomPropertySet, so that it would be possible to conduct a daylight analysis with this IFC-model. When the standard values are assigned, the new IFC-model is exported.
 
