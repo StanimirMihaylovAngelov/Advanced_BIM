@@ -34,23 +34,24 @@ The Detailed BIM Use Process Map shows the process regarding the developed scrip
 
 In order to run the script and execute the daylight analyse, inputs, which are listed below, are needed. The architects must provide an IFC-model containing the following:
 
-<ins>_Building orientation and location:_
+**_Building orientation and location:_**
 The building orientation in relation to true north should be provided, in order to calculate the amount of sunlight each façade, window, and space will receive. The building location is also important, since the suns position on the sky depends of this. The building location in the form of Latitude and Longitude should therefore also be provided in the IFC-model. With these coordinates the azimuth angle and the elevation of the sun can be found.
 
-_Surrounding buildings_: A simple model/boxes representing the neighbouring building should be included in the IFC-model as well. The neighbouring buildings should as a minimum have the attribute reflectance defined. More details are not necessary, however if more precise results are wanted, the neighbouring buildings could be modelled with more detail.
+**_Surrounding buildings_:** A simple model/boxes representing the neighbouring building should be included in the IFC-model as well. The neighbouring buildings should as a minimum have the attribute reflectance defined. More details are not necessary, however if more precise results are wanted, the neighbouring buildings could be modelled with more detail.
 
-_Ground_: The IFC-model should also have the ground defined.
+**_Ground_:** The IFC-model should also have the ground defined.
 
-_Facade_: The reflectance of the façade (ext. surface) of the analysed zone is also necessary.
+**_Facade_: **The reflectance of the façade (ext. surface) of the analysed zone is also necessary.
 
-_Space geometry:_ The dimensions of the spaces should be defined to assign the amount of daylight falling on a certain point.
+**_Space geometry_:** The dimensions of the spaces should be defined to assign the amount of daylight falling on a certain point.
 
-_Analysis surface_: The surface of analysis is typically the floor. For this surface the direction is important to have right, which it is when the surface normal is positive.
+**_Analysis surface_:** The surface of analysis is typically the floor. For this surface the direction is important to have right, which it is when the surface normal is positive.
 
-_Window placements and properties_: The IFC attributes needed regarding the window placement would be the sill height and the (x,y) coordinates of two corners, along with the orientation and angel. The IFC attributes needed regarding the window properties are the frame ratio, light transmittance of the glazing.
+**_Window placements and properties_:** The IFC attributes needed regarding the window placement would be the sill height and the (x,y) coordinates of two corners, along with the orientation and angel. The IFC attributes needed regarding the window properties are the frame ratio, light transmittance of the glazing.
 
-_I ![](RackMultipart20231112-1-cwbqn6_html_e86dfbdbacbe615d.png)
- nternal surfaces_ : The reflectance of the surfaces in rooms are necessary to be defined, for the daylight analysis. If this IFC attribute is not defined in the IFC-model, a script can assign reflectance to different materials, according to tables based on empirical data. Additionally, some standard values for building elements can be found in DS/EN 17037:2018+A1:2021.
+
+
+**Internal surfaces_ :** The reflectance of the surfaces in rooms are necessary to be defined, for the daylight analysis. If this IFC attribute is not defined in the IFC-model, a script can assign reflectance to different materials, according to tables based on empirical data. Additionally, some standard values for building elements can be found in DS/EN 17037:2018+A1:2021.
 _Solar shading__geometry and control_: If solar shading is used, the geometry and location of the shading object/device is needed, to determine the amount of sunlight coming into the space.
 
 If these described attributes for the listed entities are missing from the IFC-model, the provided script **Main.py** along with some other future scripts would provide/add the necessary information for the daylight analysis to the IFC-model and thereby produce a new improved IFC-model. This information/data would mainly be standard values from the Danish Standard (DS/ISO 17037), used when doing a daylight analysis.
