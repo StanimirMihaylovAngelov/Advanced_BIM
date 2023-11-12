@@ -17,13 +17,13 @@ The overall goal is to generate a daylight autonomy from an IFC-model. However, 
 
 **BIM Process Design:**
 
-<img img src="./images/BPMN_1.svg">
+<img img src="./images/BPMN_2.svg">
 Figure 1: BIM Overview Map
 <br />
 <br />
 When looking at the BIM overview map, the process can be described as follows. This use case starts with receiving and opening an IFC-model of the architectural BIM model. The presence of properties relevant to the daylight analysis in the IFC-model is then checked. These properties are listed in the section "BIM information exchange". If some of these properties are missing the developed script along with other future scripts should add standard values, so that it would be possible to conduct a daylight analysis with this IFC-model. When the standard values are assigned, the new IFC-model is exported. The new IFC-model is then used in combination with external data like solar-, weather- and location data to create a daylight model of the building or the zone of interest. Next the daylight analysis is performed, and the results are then evaluated. If the result does not comply with the requirements, the properties of the building elements require adjustment and optimisation, and then the daylight analysis is run again. When all requirements are met, the model and the results are exported.
 
-<img src="./images/BPMN_2.svg">
+<img src="./images/BPMN_1.svg">
  Figure 2: Detailed BIM Use Process Map
  <br />
  <br />
