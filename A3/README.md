@@ -34,7 +34,7 @@ The Detailed BIM Use Process Map shows the process regarding the developed scrip
 
 In order to run the script and execute the daylight analyse, inputs, which are listed below, are needed. The architects must provide an IFC-model containing the following:
 
-<ins>_Building orientation and location:_ <\ins>The building orientation in relation to true north should be provided, in order to calculate the amount of sunlight each façade, window, and space will receive. The building location is also important, since the suns position on the sky depends of this. The building location in the form of Latitude and Longitude should therefore also be provided in the IFC-model. With these coordinates the azimuth angle and the elevation of the sun can be found.
+<ins>_Building orientation and location:_ <ins>The building orientation in relation to true north should be provided, in order to calculate the amount of sunlight each façade, window, and space will receive. The building location is also important, since the suns position on the sky depends of this. The building location in the form of Latitude and Longitude should therefore also be provided in the IFC-model. With these coordinates the azimuth angle and the elevation of the sun can be found.
 
 _Surrounding buildings_: A simple model/boxes representing the neighbouring building should be included in the IFC-model as well. The neighbouring buildings should as a minimum have the attribute reflectance defined. More details are not necessary, however if more precise results are wanted, the neighbouring buildings could be modelled with more detail.
 
