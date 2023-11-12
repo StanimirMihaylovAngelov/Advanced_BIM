@@ -15,7 +15,7 @@ The overall goal is to generate a daylight autonomy from an IFC-model. However, 
 |      1                   |     Compare current conditions to existing regulations.            |     Analyse Program Requirements, Review Design Model, Coordinate Design Model     |
 |      1                   |     Adjust and optimize properties of building elements to meet the regulations.  |     Author Design Model, Review Design Model, Analyse Lighting Performance, Analyse Program Requirements, Coordinate Design Model  |
 
-**BIM Process Design:**
+### BIM Process Design:
 
 <img img src="./images/BPMN_2.svg">
 Figure 1: BIM Overview Map
