@@ -8,6 +8,8 @@
 
 The overall goal is to generate a daylight autonomy from an IFC-model. However, in order to reach this goal, it is necessary to define some small milestones along the way.
 
+>_Table 1: xxx._
+
 |       Priority (1-3)     |    Project Goal     |     Potential BIM Uses          |
 |--------------------------|:-------------------:|:-------------------------------:|
 |      1 = Most Important  |                     |                                 |
@@ -77,7 +79,7 @@ As previously stated, the focus of this assignment is the process of assigning m
 
 <br />
 
->_Table 1: buildingSMART Data Dictionary (bSDD) of the material attributes._
+>_Table 2: buildingSMART Data Dictionary (bSDD) of the material attributes._
 
 |     Radiance material    |          |     IfcMaterial                                     |     Comments                                                                                                                                                                        |
 |--------------------------|----------|-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
