@@ -41,7 +41,7 @@ The building orientation in relation to true north should be provided, in order 
 
 **_Ground_:** The IFC-model should also have the ground defined.
 
-**_Facade_:**The reflectance of the façade (ext. surface) of the analysed zone is also necessary.
+**_Facade_:** The reflectance of the façade (ext. surface) of the analysed zone is also necessary.
 
 **_Space geometry_:** The dimensions of the spaces should be defined to assign the amount of daylight falling on a certain point.
 
