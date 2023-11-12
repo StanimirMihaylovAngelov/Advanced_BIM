@@ -61,7 +61,7 @@ The IFC attributes needed regarding the window placement would be the sill heigh
 <ins> _Internal surfaces_</ins>: 
 The reflectance of the surfaces in rooms are necessary to be defined, for the daylight analysis. If this IFC attribute is not defined in the IFC-model, a script can assign reflectance to different materials, according to tables based on empirical data. Additionally, some standard values for building elements can be found in DS/EN 17037:2018+A1:2021.
 
-<img src="./images/Standard.png" style="width:800px;" />
+>“It is recommended to use default reflection of floor 0.2, walls 0.5 and ceiling 0.7 when tested or verified calculations are carried out.” 
 
 <ins> _Solar shading geometry and control_</ins>: 
 If solar shading is used, the geometry and location of the shading object/device is needed, to determine the amount of sunlight coming into the space.
