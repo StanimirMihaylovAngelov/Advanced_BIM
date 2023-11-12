@@ -41,7 +41,7 @@ The building orientation in relation to true north should be provided, in order 
 
 **_Ground_:** The IFC-model should also have the ground defined.
 
-**_Facade_: **The reflectance of the façade (ext. surface) of the analysed zone is also necessary.
+**_Facade_:**The reflectance of the façade (ext. surface) of the analysed zone is also necessary.
 
 **_Space geometry_:** The dimensions of the spaces should be defined to assign the amount of daylight falling on a certain point.
 
@@ -51,11 +51,11 @@ The building orientation in relation to true north should be provided, in order 
 
 
 
-**Internal surfaces_ :** The reflectance of the surfaces in rooms are necessary to be defined, for the daylight analysis. If this IFC attribute is not defined in the IFC-model, a script can assign reflectance to different materials, according to tables based on empirical data. Additionally, some standard values for building elements can be found in DS/EN 17037:2018+A1:2021.
+**_Internal surfaces_ :** The reflectance of the surfaces in rooms are necessary to be defined, for the daylight analysis. If this IFC attribute is not defined in the IFC-model, a script can assign reflectance to different materials, according to tables based on empirical data. Additionally, some standard values for building elements can be found in DS/EN 17037:2018+A1:2021.
 
 <img src="./images/Standard.png">
 
-**_Solar shading__geometry and control_:** If solar shading is used, the geometry and location of the shading object/device is needed, to determine the amount of sunlight coming into the space.
+**_Solar shading geometry and control_:** If solar shading is used, the geometry and location of the shading object/device is needed, to determine the amount of sunlight coming into the space.
 
 If these described attributes for the listed entities are missing from the IFC-model, the provided script **Main.py** along with some other future scripts would provide/add the necessary information for the daylight analysis to the IFC-model and thereby produce a new improved IFC-model. This information/data would mainly be standard values from the Danish Standard (DS/ISO 17037), used when doing a daylight analysis.
 
@@ -63,24 +63,18 @@ Further a sky model including date, time, sky condition and weather data would t
 
 As previously stated, the focus of this assignment is the process of assigning missing attributes to a IFC-model regarding the materials. The attributes of Radiance materials have different names than the attributes in the IFC materials. Therefore, a buildingSMART Data Dictionary (bSDD) has been developed, to show what the attributes in Radiance correspond to in the IFC environment.
 
+
+<br />
 _Table 1: buildingSMART Data Dictionary (bSDD) of the material attributes._
+|     Radiance material    |          |     IfcMaterial                                     |     Comments                                                                                                                                                                        |
+|--------------------------|----------|-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     RGB or Hue           |     ↔    |     IfcColourRgb                                    |     The colour code of the material:      Red, Green, Blue                                                                                                                          |
+|     Transmittance        |     ↔    |     IfcSurfaceStyleRendering (Transparency)         |     The fraction of light that gets transmitted through the material.                                                                                                               |
+|     Specularity          |     ↔    |     IfcSurfaceStyleRendering (SpecularColour)       |     The mirror-like reflection of waves, where the angle of incidence   and the angle of reflection are equal.     It is a number between 0.5-1.0     0.5 = dirty \| 1.0 = clean    |
+|     Roughness            |     ↔    |     IfcPropertySet     (Roughness)                  |     Is a number between 0-0.5     0 = polished \| 0.5 = roughened                                                                                                                   |
+|     Material type        |     ↔    |     IfcSurfaceStyleRendering (ReflectanceMethod)    |     The types of choice are:      In Radiance: Plastic, Metal, Dielectric, Trans, Mirror etc.     In IFC: PLASTIC, METAL, GLASS, MATT, MIRROR etc.                                  |
+|     Reflectance          |     ↔    |     IfcCostumPropertySet                            |     The ratio of the reflected light to the incident light.     Standard reflectances:     Floor = 0.2 \| Walls = 0.5 \| Ceiling = 0.7                                              |
 
-| **bSDD** |
-| --- |
-|
-| |
-| **Radiance material** |
- | **IfcMaterial** | **Comments** |
-| RGB or Hue | ↔ | IfcColourRgb | The colour code of the material: Red, Green, Blue |
-| Transmittance | ↔ | IfcSurfaceStyleRendering (Transparency) | The fraction of light that gets transmitted through the material. |
-| Specularity | ↔ | IfcSurfaceStyleRendering (SpecularColour) | The mirror-like reflection of waves, where the angle of incidence and the angle of reflection are equal.It is a number between 0.5-1.00.5 = dirty | 1.0 = clean |
-| Roughness | ↔ | IfcPropertySet(Roughness) | Is a number between 0-0.50 = polished | 0.5 = roughened |
-| Material type | ↔ | IfcSurfaceStyleRendering (ReflectanceMethod) | The types of choice are: In Radiance: Plastic, Metal, Dielectric, Trans, Mirror etc.In IFC: PLASTIC, METAL, GLASS, MATT, MIRROR etc. |
-| Reflectance | ↔ | IfcCostumPropertySet | The ratio of the reflected light to the incident light.Standard reflectances:Floor = 0.2 | Walls = 0.5 | Ceiling = 0.7 |
-
-
-
-# BPMN
 
 
 
