@@ -8,7 +8,7 @@
 
 The overall goal is to generate a daylight autonomy from an IFC-model. However, in order to reach this goal, it is necessary to define some small milestones along the way.
 
->_Table 1: xxx._
+>_Table 1: Project goals for a Daylight Autonomy Project with Potential BIM Uses._
 
 |       Priority (1-3)     |    Project Goal     |     Potential BIM Uses          |
 |--------------------------|:-------------------:|:-------------------------------:|
