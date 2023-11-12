@@ -52,7 +52,10 @@ The building orientation in relation to true north should be provided, in order 
 
 
 **Internal surfaces_ :** The reflectance of the surfaces in rooms are necessary to be defined, for the daylight analysis. If this IFC attribute is not defined in the IFC-model, a script can assign reflectance to different materials, according to tables based on empirical data. Additionally, some standard values for building elements can be found in DS/EN 17037:2018+A1:2021.
-_Solar shading__geometry and control_: If solar shading is used, the geometry and location of the shading object/device is needed, to determine the amount of sunlight coming into the space.
+
+<img src="./images/Standard.png">
+
+**_Solar shading__geometry and control_:** If solar shading is used, the geometry and location of the shading object/device is needed, to determine the amount of sunlight coming into the space.
 
 If these described attributes for the listed entities are missing from the IFC-model, the provided script **Main.py** along with some other future scripts would provide/add the necessary information for the daylight analysis to the IFC-model and thereby produce a new improved IFC-model. This information/data would mainly be standard values from the Danish Standard (DS/ISO 17037), used when doing a daylight analysis.
 
