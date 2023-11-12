@@ -18,7 +18,7 @@ The overall goal is to generate a daylight autonomy from an IFC-model. However, 
 ### BIM Process Design:
 
 <img img src="./images/BPMN_2.svg">
-Figure 1: BIM Overview Map
+>Figure 1: BIM Overview Map
 <br />
 <br />
 
