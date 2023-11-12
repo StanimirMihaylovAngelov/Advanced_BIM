@@ -65,8 +65,8 @@ As previously stated, the focus of this assignment is the process of assigning m
 
 
 <br />
-_Table 1: buildingSMART Data Dictionary (bSDD) of the material attributes._
 
+_Table 1: buildingSMART Data Dictionary (bSDD) of the material attributes._
 |     Radiance material    |          |     IfcMaterial                                     |     Comments                                                                                                                                                                        |
 |--------------------------|----------|-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     RGB or Hue           |     &harr;    |     IfcColourRgb                                    |     The colour code of the material:      Red, Green, Blue                                                                                                                          |
