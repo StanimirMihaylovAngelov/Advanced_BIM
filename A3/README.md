@@ -1,4 +1,4 @@
-**BIM Execution Plan**
+# BIM Execution Plan
 
 **Use case** : The chosen use case is a daylight analysis consisting of a daylight autonomy. The script should: read certain information from the IFC model; import external information from other files and formats; combine the two, and compare the results to regulations, requirements, and goals; edit object properties in order to meet the regulations, requirements, and goals. However, due to limited time and programming skills, the focus of this assignment is on the preparation of the IFC-model, or rather the addition of surface reflectance in case of missing data.
 
@@ -30,7 +30,7 @@ When looking at the BIM overview map, the process can be described as follows. T
 
 The Detailed BIM Use Process Map shows the process regarding the developed script [**Main.py**](main.py). This use case starts with receiving and opening an IFC-model of the architectural BIM model. The presence of surface reflectance of the building elements in the IFC-model is checked. If some of these surface reflectances are missing, the developed script [**Main.py**](main.py) will assign standard values from the Danish Standard DS/ISO 17037 as a new IfcCustomPropertySet, so that it would be possible to conduct a daylight analysis with this IFC-model. When the standard values are assigned, the new IFC-model is exported.
 
-## BIM Information Exchanges (properties needed for the use case):
+### BIM Information Exchanges (properties needed for the use case):
 
 In order to run the script and execute the daylight analyse, inputs, which are listed below, are needed. The architects must provide an IFC-model containing the following:
 
