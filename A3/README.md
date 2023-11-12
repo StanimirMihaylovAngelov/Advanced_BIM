@@ -17,13 +17,13 @@ The overall goal is to generate a daylight autonomy from an IFC-model. However, 
 
 **BIM Process Design:**
 
-<img src="./images/BPMN_1.svg">
- Figure 1: BIM Overview Map
-<figure class="image">
-  <img src="./images/BPMN_1.svg" alt="{{ include.description }}">
-  <figcaption>{{ include.description }}</figcaption>
+<>
+ F
+<figure>
+    <img img src="./images/BPMN_1.svg"
+         alt="BPMN1">
+    <figcaption>igure 1: BIM Overview Map</figcaption>
 </figure>
-
 
  
 
