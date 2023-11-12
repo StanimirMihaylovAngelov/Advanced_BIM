@@ -8,14 +8,12 @@
 
 The overall goal is to generate a daylight autonomy from an IFC-model. However, in order to reach this goal, it is necessary to define some small milestones along the way.
 
-| **Priority (1-3)** | **Project Goal** | **Potential BIM Uses** |
-| --- | --- | --- |
-| **1 = Most Important** |
- |
- |
-| **1** | Analyse the current daylight conditions in a given building. | Capture Existing Conditions, Author Design Model, Analyse Lightning Performance |
-| **1** | Compare current conditions to existing regulations. | Analyse Program Requirements, Review Design Model, Coordinate Design Model |
-| **1** | Adjust and optimize properties of building elements to meet the regulations. | Author Design Model, Review Design Model, Analyse Lighting Performance, Analyse Program Requirements, Coordinate Design Model |
+|       Priority (1-3)     |    Project Goal     |     Potential BIM Uses          |
+|--------------------------|:-------------------:|:-------------------------------:|
+|      1 = Most Important  |                     |                                 |
+|      1                   |     Analyse the current daylight conditions in a given building.   |     Capture Existing Conditions, Author Design Model, Analyse Lightning Performance      |
+|      1                   |     Compare current conditions to existing regulations.            |     Analyse Program Requirements, Review Design Model, Coordinate Design Model     |
+|      1                   |     Adjust and optimize properties of building elements to meet the regulations.  |     Author Design Model, Review Design Model, Analyse Lighting Performance, Analyse Program Requirements, Coordinate Design Model  |
 
 **BIM Process Design:**
 
