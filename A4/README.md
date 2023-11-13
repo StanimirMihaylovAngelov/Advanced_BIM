@@ -12,7 +12,7 @@ Spyder is a open source software, which means that is free for everyone to use a
 3.	**Open the installer** by double-clicking on the downloaded file.
 4.	The installer will now open.
 5.	Click **Next >**
-6.	Click I **Agree**
+6.	Click **I Agree**
 7.	Choose “Install for anyone using this computer” and click **Next >** 
 8.	Click **Install**
 9.	Now open `Spyder`
