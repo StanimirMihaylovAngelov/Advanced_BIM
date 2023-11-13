@@ -1,6 +1,5 @@
-1+1 = 2
-Open you IFC moddel in bimvison. IF you are unsrue how to save moddels as IFC follow this. [linK]
 
+If you're new to IFCopenshell and BIM, this guide is your starting point. It walks you through some essential programs, providing the necessary foundation for your journey into the world of Building Information Modeling (BIM).
 
 ## Installations
 ### Spyder
