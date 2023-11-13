@@ -25,7 +25,7 @@ BIMvision is a good freeware tool to help you visualize your IFC model. BIMvisio
 
 1. Download BIMvision [here](https://bimvision.eu/download/), shortly after you have entered your email address, you will receive a download link.
 2.  Download the `.exe` file, run it, and choose the download directory
-3.  You should now be able to open `IFC` in BIMvision
+3.  You should now be able to open and visualize your IFC models in `BIMvision`
 
  
 
