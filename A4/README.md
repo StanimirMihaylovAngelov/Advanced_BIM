@@ -8,7 +8,7 @@ Spyder is a open source software, which means that is free for everyone to use a
 
 1.	Start by **downloading Spyder** (standalone).
     1. The standalone installer is the recommended method for most users on Windows and macOS, with experimental Linux support under active development. 
-    2. For **Window** download [here](https://github.com/spyder-ide/spyder/releases/latest/download/Spyder_64bit_full.exe)
+    2. Download the `.exe` file for Windows [here](https://github.com/spyder-ide/spyder/releases/latest/download/Spyder_64bit_full.exe)
     3. For **macOS** download [here](https://github.com/spyder-ide/spyder/releases/latest/download/Spyder.dmg)
 3.	**Open the installer** by double-clicking on the downloaded file.
 4.	The installer will now open.
