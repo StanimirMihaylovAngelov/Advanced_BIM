@@ -6,17 +6,17 @@ Open you IFC moddel in bimvison. IF you are unsrue how to save moddels as IFC fo
 ### Spyder
 Spyder is a open source software, which means that is free for everyone to use and anyone can contribute to it. Spyder can be used for running and editing python programming scripts.
 
-1.	Start by downloading Spyder (standalone).
+1.	Start by **downloading Spyder** (standalone).
     1. The standalone installer is the recommended method for most users on Windows and macOS, with experimental Linux support under active development. 
- - For Window download here: https://github.com/spyder-ide/spyder/releases/latest/download/Spyder_64bit_full.exe 
- - For macOS download here: https://github.com/spyder-ide/spyder/releases/latest/download/Spyder.dmg 
-3.	Open the installer by double-clicking on the downloaded file.
+    2. For **Window** download [here](https://github.com/spyder-ide/spyder/releases/latest/download/Spyder_64bit_full.exe)
+    3. For **macOS** download [here](https://github.com/spyder-ide/spyder/releases/latest/download/Spyder.dmg)
+3.	**Open the installer** by double-clicking on the downloaded file.
 4.	The installer will now open.
-5.	Click Next >
-6.	Click I Agree
+5.	Click **Next** >
+6.	Click I **Agree**
 7.	Choose “Install for anyone using this computer” and click Next >
-8.	Click Install
-9.	Now open Spyder
+8.	Click **Install**
+9.	Now open `Spyder`
 
 
 
