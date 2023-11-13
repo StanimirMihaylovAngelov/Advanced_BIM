@@ -18,8 +18,6 @@ Spyder is a open source software, which means that is free for everyone to use a
 9.	Now open `Spyder`
 
 
-
-
 ### BIMvision
 BIMvision is a good freeware tool to help you visualize your IFC model. BIMvision shows various properties specific to the model and has many built-in features and plugins.
 
@@ -27,6 +25,14 @@ BIMvision is a good freeware tool to help you visualize your IFC model. BIMvisio
 2.  Download the `.exe` file, run it, and choose the download directory
 3.  You should now be able to open and visualize your IFC models in `BIMvision`
 
+### IFCopenshell
+
+There are different methods of installation, depending on your situation. If you are following this guide and using Spyder and BIMvision, you should choose the Pre-built packages.
+1.	Start by downloading IfcOpenShell (newest version) here: Installation - IfcOpenShell 0.7.0 documentation (blenderbim.org)
+    1. Choose the Pre-built package suitable for your computer’s operating system.
+2.	Follow the installation guide for Pre-built package (step 1-3)
+
+> :bulb: **Tip:** Remember to appreciate the little things in life.
  
 
 
