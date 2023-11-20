@@ -28,7 +28,7 @@ BIMvision is a good freeware tool to help you visualize your IFC model. BIMvisio
 ### IFCopenshell
 
 There are different methods of installation, depending on your situation. If you are following this guide and using Spyder and BIMvision, you should choose the Pre-built packages.
-1.	Start by downloading IfcOpenShell (newest version) here: Installation - IfcOpenShell 0.7.0 documentation (blenderbim.org)
+1.	Start by downloading IfcOpenShell (newest version) [here](https://blenderbim.org/docs-python/ifcopenshell-python/installation.html#pypi)
     1. Choose the Pre-built package suitable for your computer’s operating system.
 2.	Follow the installation guide for Pre-built package (step 1-3)
 
