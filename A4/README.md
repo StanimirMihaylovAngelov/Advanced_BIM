@@ -33,6 +33,7 @@ There are different methods of installation, depending on your situation. If you
 2.	Follow the installation guide for Pre-built package (step 1-3)
 
 > :bulb: **Tip:** Make sure to extract/unzip the `ifcopenshell.zip` file to the spyder\python directory.__
+> 
 > <img src="./images/billede_2023-11-20_145004733.png" width="600" height="150">
 
 
