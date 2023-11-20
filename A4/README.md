@@ -35,3 +35,7 @@ There are different methods of installation, depending on your situation. If you
 > :bulb: **Tip:** Make sure to extract/unzip the `ifcopenshell.zip` file to the Spyder\Python directory.
 > 
 > <img src="./images/billede_2023-11-20_145004733.png" width="600" height="150">
+
+## IFC export
+I order to export a Revit 3D model as a IFC-file follow this guide by clicking [here](A4/IFC_export.md).
+
