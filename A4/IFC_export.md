@@ -17,6 +17,6 @@
     3. Under Advanced tab:
        *    _Use family and type name for reference_ – neccessery to identify this box should be ticked.
        *    _Use 2D room bounderies_
-               <img src="./images/Punkt_iii.png" width="600" height="400">
+            <img src="./images/Punkt_iii.png" width="600" height="400">
 6.	Press **Export**
     <img src="./images/Export.png" width="600" height="400">
