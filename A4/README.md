@@ -32,7 +32,7 @@ There are different methods of installation, depending on your situation. If you
     1. Choose the Pre-built package suitable for your computer’s operating system.
 2.	Follow the installation guide for Pre-built package (step 1-3)
 
-> :bulb: **Tip:** When following step 2 in the Pre-built package, you must be aware of the correct folder to export the `.zip` too. 
+> :bulb: **Tip:** Make sure to extract/unzip the `ifcopenshell.zip` file to the spyder\python folder. 
  
 
 
