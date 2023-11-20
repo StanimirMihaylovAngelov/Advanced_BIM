@@ -3,7 +3,7 @@ If you're new to IFCopenshell and BIM, this guide is your starting point. It wal
 
 ## Installations
 ### Spyder
-Spyder is a open source software, which means that is free for everyone to use and anyone can contribute to it. Spyder can be used for running and editing python programming scripts.
+Spyder is a open source software, which means that it is free for everyone to use and anyone can contribute to it. Spyder can be used for running and editing python programming scripts.
 
 1.	Start by **downloading Spyder** (standalone).
     1. The standalone installer is the recommended method for most users on Windows and macOS, with experimental Linux support under active development. 
