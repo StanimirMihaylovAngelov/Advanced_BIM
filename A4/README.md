@@ -1,6 +1,10 @@
 
 If you're new to IFCopenshell and BIM, this guide is your starting point. It walks you through some essential programs, providing the necessary foundation for your journey into the world of Building Information Modeling (BIM).
 
+## IFC export
+I order to export a Revit 3D model as a IFC-file follow this guide by clicking [here](A4/IFC_export.md).
+
+
 ## Installations
 ### Spyder
 Spyder is a open source software, which means that it is free for everyone to use and anyone can contribute to it. Spyder can be used for running and editing python programming scripts.
@@ -35,7 +39,3 @@ There are different methods of installation, depending on your situation. If you
 > :bulb: **Tip:** Make sure to extract/unzip the `ifcopenshell.zip` file to the Spyder\Python directory.
 > 
 > <img src="./images/billede_2023-11-20_145004733.png" width="600" height="150">
-
-## IFC export
-I order to export a Revit 3D model as a IFC-file follow this guide by clicking [here](A4/IFC_export.md).
-
