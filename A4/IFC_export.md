@@ -4,8 +4,7 @@
 2.  Press the **File** tab, in the top left corner, on Revit’s ribbon. Then choose **Export** &rarr; **IFC**.
     <img src="./images/Punkt2_1.png" width="600" height="400"><img src="./images/Punkt2_2.png" width="600" height="400">
 3.  A dialog box will appear, asking for the location where the IFC file should be saved. You can either type a directory, or find it by clicking **Browse** and choosing the the folder.
-   
-    <img src="./images/Punkt4.png" width="600" height="400">
+    img src="./images/Punkt4.png" width="600" height="400">
 5.  For **Current selected setup**, select the IFC setup to use to create the file and click **Modify setup**. There are 9 built-in setups. These setups correspond to the IFC version options.
     1. Under Additional Content tab:
        *    _Export rooms in 2D viwes_ – exports all rooms in the model.
