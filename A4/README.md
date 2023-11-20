@@ -2,7 +2,7 @@
 If you're new to IFCopenshell and BIM, this guide is your starting point. It walks you through some essential programs, providing the necessary foundation for your journey into the world of Building Information Modeling (BIM).
 
 ## IFC export
-I order to export a Revit 3D model as a IFC-file, please follow this guide by clicking [here](./A4/IFC_export.md).
+I order to export a Revit 3D model as a IFC-file, please follow this guide by clicking [here](IFC_export.md).
 
 
 ## Installations
