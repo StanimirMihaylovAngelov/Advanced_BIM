@@ -50,13 +50,8 @@ There are different methods of installation, depending on your situation. If you
 </a>
 
 Below you can download the Python script and the Ifc model.
-* [Code for Python script](./Script.py)
-* [IFC model](./Script.py)
-* [Download Example.ifc](./Example.ifc?raw=true)
+* Code for python can be downloaded/copied from [here](./Script.py)
+* Ifc model can be downloaded [here](./Example.ifc)
 
-<a href="./Example.ifc" download>Click here to download</a>
 
-{{< a href="./Example.ifc" download="download" >}}
-Click here to download
-{{< /a >}}
 
