@@ -39,3 +39,9 @@ There are different methods of installation, depending on your situation. If you
 > :bulb: **Tip:** Make sure to extract/unzip the `ifcopenshell.zip` file to the Spyder\Python directory.
 > 
 > <img src="./images/billede_2023-11-20_145004733.png" width="600" height="150">
+
+
+
+
+# xxx
+https://youtu.be/guRrVq0YVlg 
