@@ -45,6 +45,11 @@ There are different methods of installation, depending on your situation. If you
 
 # xxx
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=guRrVq0YVlg" target="_blank">
+ <img src="http://img.youtube.com/vi/guRrVq0YVlg/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
+
+
 [![Watch the video](https://img.youtube.com/vi/guRrVq0YVlg/default.jpg)](https://youtu.be/guRrVq0YVlg)
 
 https://youtu.be/guRrVq0YVlg 
