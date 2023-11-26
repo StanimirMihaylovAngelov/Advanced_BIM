@@ -49,7 +49,8 @@ There are different methods of installation, depending on your situation. If you
  <img src="http://img.youtube.com/vi/guRrVq0YVlg/mqdefault.jpg" alt="Watch the video" width="480" height="360" border="10" />
 </a>
 
-[Code for Python script](./Script.py)
-[Code for Python script](./Script.py)
+Below you can download the Python script and the Ifc model.
+* [Code for Python script](./Script.py)
+* [IFC model](./Script.py)
 
 
