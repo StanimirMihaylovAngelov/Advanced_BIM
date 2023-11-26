@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Nov 25 11:52:03 2023
-
-@author: mariu
-"""
-
 # import
 from pathlib import Path
 import ifcopenshell
@@ -35,7 +28,6 @@ wall = (model.by_type('IfcWall'))[0];
 print(wall.get_info())
 
 
-
 # Add informations 
 products = model.by_type("IfcProduct")
 owner_history = model.by_type("IfcOwnerHistory")[0]
@@ -46,7 +38,7 @@ for i in products:
         walls.append(i) 
 
 property_values = [
-    model.createIfcPropertySingleValue("Excample Text ", "", model.create_entity("IfcText", "Hello World"), None),
+    model.createIfcPropertySingleValue("Example Text ", "", model.create_entity("IfcText", "Hello World"), None),
 ]   
 for wall in walls:
     property_set = model.createIfcPropertySet(wall.GlobalId, owner_history, "Example Property ", None, property_values)
