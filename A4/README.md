@@ -54,5 +54,6 @@ Below you can download the Python script and the Ifc model.
 * [IFC model](./Script.py)
 * [Download Example.ifc](./Example.ifc?raw=true)
 
+<a href="./Example.ifc" download>Click here to download</a>
 
 
