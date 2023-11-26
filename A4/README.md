@@ -45,4 +45,6 @@ There are different methods of installation, depending on your situation. If you
 
 # xxx
 
+[![Watch the video](https://img.youtube.com/vi/guRrVq0YVlg/default.jpg)](https://youtu.be/guRrVq0YVlg)
+
 https://youtu.be/guRrVq0YVlg 
