@@ -52,7 +52,7 @@ There are different methods of installation, depending on your situation. If you
 Below you can download the Python script and the Ifc model.
 * [Code for Python script](./Script.py)
 * [IFC model](./Script.py)
-* [Download Example.ifc](./Example.ifc)
+* [Download Example.ifc](./Example.ifc?raw=true)
 
 
 
