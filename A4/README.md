@@ -56,4 +56,7 @@ Below you can download the Python script and the Ifc model.
 
 <a href="./Example.ifc" download>Click here to download</a>
 
+{{< a href="./Example.ifc" download="download" >}}
+Click here to download
+{{< /a >}}
 
