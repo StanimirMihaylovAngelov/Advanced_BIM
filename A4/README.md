@@ -1,4 +1,4 @@
->This is a tool that targets new users! People who know how to use Revit or other modelling programs but not Ifcopenshell.
+>This is a tool that targets new users (Level 1/Modeller)! People who know how to use Revit or other modelling programs but not Ifcopenshell.
 
 If you're new to IFCopenshell and BIM, this guide is your starting point. It walks you through some essential programs, providing the necessary foundation for your journey into the world of Building Information Modeling (BIM).
 
