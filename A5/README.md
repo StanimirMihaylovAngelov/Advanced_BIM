@@ -6,3 +6,5 @@ Some of our group members had never used Python before this course, therefore it
 We feel like we still need to learn more fundamental concepts, and basic principles of programming, increase our personal libraries with codes, and program more. 
 
 In the future, we might use OpenBIM to extract and manipulate data from different file sources, improve model data quality and even improve model performance. 
+
+
